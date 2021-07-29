@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>Project-Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="header">
+ <nav>
+   <div class="nav-links" id="navLinks">
+    <i class="fas fa-times" onclick="hideMenu()"></i>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+	<li><a href="About-project.html">ABOUT</a></li>
+	<li><a href="extra-curriculars.html">HOBBIES</a></li>
+	<li><a href="index.html">COURSES/PROJECTS</a></li>
+	<li><a href="Contact-me.html">CONTACT</a></li>
+    </ul>
+    </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>        
+  </nav>
+   <div class="text-box">
+      <h1>I'm SHAIK SAMEERUDDIN</h1>
+	  <p>
+	  My career objective is to work for an organisation and help them
+in growing their business/achieving their objective<br>by deriving insights
+with my knowledge and steadily improving myself parallely
+	  </p>
+        <a href=""class="hero-btn">Visit me to know more</a>
+   </div>
+</section>
+<!----JAVASCRIPT for Toggling menu---->
+<script> 
+      var navLinks=document.getElementById("navLinks")
+      function showMenu(){
+      navLinks.style.right="0"}
+      function hideMenu(){
+      navLinks.style.right="-200px"}
+</script>
+</body>
+</html>

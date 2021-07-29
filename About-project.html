@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Project-Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="sub-header">
+<nav>
+   <div class="nav-links" id="navLinks">
+   <i class="fas fa-times" onclick="hideMenu()"></i>
+   <ul>
+   <li><a href="index.html">HOME</a></li>
+	<li><a href="About-project.html">ABOUT</a></li>
+	<li><a href="extra-curriculars.html">HOBBIES</a></li>
+	<li><a href="index.html">COURSES/PROJECTS</a></li>
+	<li><a href="Contact-me.html">CONTACT</a></li>
+   </ul>
+   </div>
+   <i class="fas fa-bars" onclick="showMenu()"></i>        
+</nav>
+   <h2>About Me</h2>
+   <div class="about-box">
+      <div class="image-box">
+         <img src="Sam.jpg">
+      </div>
+      <div class="content-box">
+         <p>Hi! My name is Sameer. I am currently a B.Tech. 3rd year student at Gayatri Vidya Parishad College of Engineering. My stream is Electronics & Communication Engineering. I like to explore every technology that i come into touch with. I am a quick learner and currently looking to work with any organisation that encourages me to learn and explore new technologies. I have also come across cutting edge technologies like Machine Learning, Deep Learning & IOT. I am interested in web technologies like HTML,CSS and currently learning JavaScript for front-end development. I am fascinated about the cloud technology as well.
+         </p>
+   </div>
+</section>
+
+<!----JAVASCRIPT for Toggling menu---->
+<script> 
+      var navLinks=document.getElementById("navLinks")
+      function showMenu(){
+      navLinks.style.right="0"}
+      function hideMenu(){
+      navLinks.style.right="-200px"}
+</script>
+</body>
+</html>

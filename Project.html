@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Project-Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="sub-header">
+<nav>
+   <div class="nav-links" id="navLinks">
+      <i style="background:red;"class="fas fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a class="link-color" href="index.html">HOME</a></li>
+     <li><a class="link-color"href="About-project.html">ABOUT</a></li>
+     <li><a class="link-color"href="extra-curriculars.html">HOBBIES</a></li>
+     <li><a class="link-color"href="Project.html">PROJECTS</a></li>
+     <li><a class="link-color"href="Contact-me.html">CONTACT</a></li>
+      </ul>
+      </div>
+          <i class="fas fa-bars" onclick="showMenu()"></i>        
+</nav>
+   <h2>Projects</h2>
+   <div class="project-box">
+       <p class="project-des">
+          *SENSOR GUIDED ARDUINO ROBOTS<br>
+       -->Line Follower Robot <br>
+       -->Object Follower Robot<br>
+       -->Object Avoider Robot<br>
+       -->Edge Detection Robot<br>
+       </p>
+       <p class="project-des">
+          *Market Basket Analysis
+       </p>
+   </div>
+   <div>
+      <p class="head">SENSOR GUIDED ARDUINO ROBOT</p>
+      <p>
+         Sensor Guided Autonomous Robotics comprises of robots that function depending on the inputs
+         from sensors and are controlled with the help of an Arduino Uno. Arduino is an embedded system 
+         which acts as the brain for thousands of projects, from everyday objects to complex scientific
+         instruments.<br>
+         Arduino is an open source Hardware and Software development platform. Microcontrollers used mostly
+         in Arduino are ATmega8, ATmega168 and ATmega328<br>
+         Features of Arduino Uno:<br>
+         ->Advanced RISC Architecture<br>
+         ->3 PWM Channels<br>
+         ->Programmable Serial USART<br>
+         ->External and Internal Interrupt sources<br>
+         ->Operating Voltages 4.5V - 5.5V<br>
+         ->On-chip Analog Comparator<br>
+         ->8-channel ADC with 10-bit Accuracy<br>
+         <br>
+         Types of Light Sensors:<br>
+         ->Light Dependent Resistor<br>
+         ->Photovoltaic Cell<br>
+         ->Infra Red Sensor<br>
+         ->Photo Diode<br>
+         ->Proximity Sensor<br>
+         <br>
+         Object Detection Using IR Sensor:<br>
+         IR Sensor has two main components, one which emitts light(LED) and the other which absorbs light(Photo Diode)
+         Below you can see the sample figures of how a LED emitts light and photodiode absorbs it if the 
+         light gets reflected from any surface. Below you can see prototype of how a IR sensor works<br>
+         
+            <img class="pro-img" src="IR sensor 1.jpeg">
+            <img class="pro-img" src="IR sensor 2.jpeg">
+         <br>
+         Equipment used :<br>
+         1]Arduino Uno<br>
+         2]Motor Driver Circuit<br>
+         3]Digital IR Sensors<br>
+         4]Breadboard<br>
+         5]M3 Screws(60mm, 45mm, 30mm, 6mm)<br>
+         6]LED<br>
+         7]Double Sided Tape<br>
+         8]BO1 Wheels and Motors<br>
+         9]Metal Clamps<br>
+         10]Metal hole strips<br>
+         11]Castor Wheel<br>
+         12]9V Battery Connector<br>
+         13]Barrel Connector<br>
+         14]Female to Female single pin connectors<br>
+         15]Male to Male single pin connectors<br>
+         16]Male to Female single pin connectors<br>
+         17]Wooden board<br>
+         18]UART Cable<br>
+         19]Wire stripper<br>
+         20]Screw Driver<br>
+         21]Insulation tape<br>
+         <br>
+         Line Follower Robot:<br>
+         This robot is an autonomous robot capable of detecting the path and actuate accordingly. 
+The robot uses I.R. sensor to detect the black line and move accordingly in the designated path.
+Below is the model of how a line follower robot follows the line.<br>
+Click <a style="color:yellow;" href="https://github.com/SHAIK-SAMEERUDDIN/Sensor-Guided-Line-Follower-Robot.git">here</a> to see my project code for line follower robot.
+         <br>
+         <img class="pro-img"src="line-follower.jpeg">
+         <br>
+         Object Follower Robot<br>
+         This robot can follow any object that comes in its way. Here the I.R. sensors will act as 
+an eye of the robot. The robot will be at rest until it detects any object and starts moving towards the object if it 
+detects any. Below is the model of how a robot detects an object infront of it through the sensors
+         <br>
+         <img class="pro-img" src="obstacle-detector.jpeg">
+         <br>
+         Object Avoider Robot:<br>
+         This robot is capable of avoiding any object that comes in its way on its own. The 
+microcontroller is programmed in such a way that whenever I.R. sensors detect any obstacle, immediately the 
+robot will change its direction.<br>
+Click <a style="color:yellow;" href="https://github.com/SHAIK-SAMEERUDDIN/Sensor-Guided-Object-Avoider-Robot.git">here</a> to see my project code for Object Avoider Robot.
+         <br>
+         <br>
+         Edge Detection Robot:<br>
+         This robot is capable of avoiding any object that comes in its way on its own. The 
+microcontroller is programmed in such a way that whenever I.R. sensors detect any obstacle, immediately the 
+robot will change its direction.Below is the model of how a robot detects edges ,note here that the orientation
+of sensors gets changed here.
+         <br>
+         <img class="pro-img" src="edge-detector.jpeg">
+         <br>
+         Below is the picture of a complete Arduino Robot
+         <br>
+         <img class="pro-img" src="final-project.jpeg">
+         <br><br><br>
+         <p class="head">MARKET BASKET ANALYSIS</p>
+         <P>
+            Market basket analysis is a data mining technique used by retailers to increase sales by better understanding customer purchasing patterns. It involves analyzing large data sets, such as purchase history, to reveal product groupings, as well as products that are likely to be purchased together.
+            It is one of the key techniques used by large retailers to uncover associations between items.
+            In market basket analysis, association rules are used to predict the likelihood of products being purchased together. Association rules count the frequency of items that occur together, seeking to find associations that occur far more often than expected.
+            The Apriori algorithm is commonly cited by data scientists in research articles about market basket analysis and is used to identify frequent items in the database, then evaluate their frequency as the datasets are expanded to larger sizes.
+            <br><br>
+            Examples of market basket analysis :<br>
+The Amazon website employs a well-known example of market basket analysis. On a product page, Amazon presents users with related products, under the headings of “Frequently bought together” and “Customers who bought this item also bought.”
+Market basket analysis can increase sales and customer satisfaction. Using data to determine that products are often purchased together, retailers can optimize product placement, offer special deals and create new product bundles to encourage further sales of these combinations.
+<br><br>
+            Association Rule Mining :<br>
+            Association rule mining is a very good algorithm which helps the business make profit.
+            Association rule mining is all about building the rules and we write the code with the 
+            help of certain algorithm whioch states if u buy an item 'X' then then there's a slight 
+            possibility that you might buy 'Y' and we write this or denote this realtion as 'X'-->'Y'
+            and the relation between these two items is known as single cardinality and the cardinality also 
+            increases when the product groupings are more.<br>
+            <br>
+            Apriori Algorithm:<br>
+            Apriori Algorithm is a Machine Learning algorithm which is used to gain insights into 
+            the structured relationships between different items involved. The most prominent practical
+            application of the algorithm is to recommend products based on the products already present
+            in the user's cart<br>
+            There are three types of matrices which help to measure the association, we have 'SUPPORT', 
+            'CONFIDENCE' and 'LIFT'<br>
+            Let us consider an example to understand how to analyze these three terms<br>
+            let 'X', 'Y', 'Z' be three any products. Consider suppose a customer purchased product 'X' and 
+            product 'Y', now we need to find all the rules for the transaction X & Y --> Z, the expression 
+            means that the product 'Z' is recommended to the user given that the user purchased the items 'X'
+            and 'Y'.This recommendation is based on the history of purchased items and the threshold 
+            which is set by the respective retsil or an e-commerce company <br>
+            We need to find the three metrics from the history of transactions(support, confidence and lift):<br>
+         -->support is the probability that a transaction contains {'X','Y','Z'}<br>
+         -->confidence is the conditional probability that a transaction having {'X' & 'Y'} also
+         contains 'Z'<br>
+         -->lift is defined as the ratio of support to the confidence<br>
+         In this project i have took a dataset which contains 7500 customer transactions and mined 
+         the rules and product remmondations , click <a style="color:yellow;" href="https://github.com/SHAIK-SAMEERUDDIN/Market-Basket-Analysis-Recommendations-in-Retail-E-Commerce.git">here</a> to see my code.
+         </P>
+
+
+      </p>
+   </div>
+</section>
+
+<!----JAVASCRIPT for Toggling menu---->
+<script> 
+      var navLinks=document.getElementById("navLinks")
+      function showMenu(){
+      navLinks.style.right="0"}
+      function hideMenu(){
+      navLinks.style.right="-200px"}
+</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>Project-Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="header">
+ <nav>
+  <div class="nav-links" id="navLinks">
+    <i style="background:red;"class="fas fa-times" onclick="hideMenu()"></i>
+    <ul>
+      <li><a class="link-color" href="index.html">HOME</a></li>
+	<li><a class="link-color"href="About-project.html">ABOUT</a></li>
+	<li><a class="link-color"href="extra-curriculars.html">HOBBIES</a></li>
+	<li><a class="link-color"href="Project.html">PROJECTS</a></li>
+	<li><a class="link-color"href="Contact-me.html">CONTACT</a></li>
+    </ul>
+    </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>      
+  </nav>
+  <h2 class="head1">HOBBIES</h2>
+  <div class="hobby">
+  <p class="para1">Playing cricket and volleyball<br>
+     Watching action movies<br>
+     Solving puzzles that i come across any platforms<br>
+     Travelling and visiting new places once in a year<br>
+     Visited some of the most famous places in India<br>
+     Below are the places that i have visited over the past few years   
+</p>
+  </div>
+  <div class="container">
+    <div class="img-box">
+        <img src="taj-mahal.jpg">
+        <div class="desc">TAJ MAHAL<br>Agra, Uttar Pradesh</div>
+    </div>
+    <div class="img-box">
+        <img src="red-fort.jpg">
+        <div class="desc">RED FORT<br>Delhi</div>
+    </div>
+    <div class="img-box">
+        <img src="lotus-temple.jpg">
+        <div class="desc">LOTUS TEMPLE<br>Delhi</div>
+    </div>
+    <div class="img-box">
+        <img src="gateway-of-India.jpg">
+        <div class="desc">GATEWAY OF INDIA<br>Mumbai, Maharashtra</div>
+    </div>
+    <div class="img-box">
+        <img src="howrah-bridge.jpg">
+        <div class="desc">HOWRAH BRIDGE<br>Kolkata, West Bengal</div>
+    </div>
+    <div class="img-box">
+        <img src="india-gate.jpg">
+        <div class="desc">INNDIA GATE<br>Delhi</div>
+    </div>
+    <div class="img-box">
+        <img src="qutub-minar.jpg">
+        <div class="desc">QUTUB MINAR<br>Delhi</div>
+    </div>
+    <div class="img-box">
+        <img src="national-zoological-park.jpg">
+        <div class="desc">NATIONAL ZOOLOGICAL PARK<br>Delhi</div>
+    </div>
+    <div class="img-box">
+        <img src="jama-masjid.jpg">
+        <div class="desc">JAMA MASJID<br>Delhi</div>
+    </div>
+    <div class="img-box">
+        <img src="adhai-din-ka-jhonpra.jpg">
+        <div class="desc">ADHAI DIN KA JHONPRA<br>Ajmer, Rajasthan</div>
+    </div>
+    <div class="img-box">
+        <img src="humayun's-tomb.jpg">
+        <div class="desc">HUMAYUN'S TOMB<BR>Delhi</div>
+    </div>
+    <div class="img-box">
+        <img src="fathepur-sikri.jpg">
+        <div class="desc">FATEHPUR SIKRI<br>Uttar Pradesh</div>
+    </div>
+        
+
+</section>
+<!----JAVASCRIPT for Toggling menu---->
+<script> 
+      var navLinks=document.getElementById("navLinks")
+      function showMenu(){
+      navLinks.style.right="0"}
+      function hideMenu(){
+      navLinks.style.right="-200px"}
+</script>
+</body>
+</html>
